@@ -1,0 +1,47 @@
+  <nav class=" bg-bgDark sm:px-4">
+    <div class="container flex flex-wrap items-center justify-between px-8 pt-8 mx-auto">
+      <a href="#" class="flex items-center"><img src="/img/logo-white.svg" class="h-6 mr-3 sm:h-9" alt="Logo"></a>
+      <div class="flex md:order-2 ">
+        {{!-- <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-white text-sm p-2.5 mr-1"><svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg><span class="sr-only">Search</span></button> --}}
+        <div class="relative hidden md:block">  
+          <input type="text" id="search-navbar" class="block w-full p-2 pl-4 bg-transparent rounded-full outline-0 text-gray-lightGray sm:text-sm " placeholder="Search here...">
+          <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+            <svg class="w-5 h-5 text-gray-lightGray" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg> 
+                <span class="sr-only">Search icon</span>
+          </div> 
+        </div>
+        <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 text-sm text-white md:hidden " aria-controls="navbar-search" aria-expanded="false">
+            <span class="sr-only">Open menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+        <div class="relative mt-3 md:hidden">
+          {{!-- <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <svg class="w-5 h-5 text-black" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+          </div>
+          <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-black bg-white sm:text-sm" placeholder="Search here..."> --}}
+        </div> 
+        <ul class="flex flex-col p-4 mt-4 text-white md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium ">
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 md:hover:text-blue md:p-0  md:hover:border-t-[3px] border-border"aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 md:hover:text-blue md:p-0  md:hover:border-t-[3px] border-border">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 md:hover:text-blue md:p-0  md:hover:border-t-[3px] border-border">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 md:hover:text-blue md:p-0  md:hover:border-t-[3px] border-border">Blog</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 md:hover:text-blue md:p-0  md:hover:border-t-[3px] border-border">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

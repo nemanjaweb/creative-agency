@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+// Screen sizes
+@mixin sm-down {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin sm-up {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin md-up {
+    @media (min-width: 1110px) {
+        @content;
+    }
+}
+@mixin md-down {
+    @media (max-width: 1109px) {
+        @content;
+    }
+}
+
+@mixin lg-up {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}
+html {
+    // font-size: 62.5%;
+    scroll-behavior: smooth;
+}
