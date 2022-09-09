@@ -16,7 +16,7 @@ const writeResToDom = (results) => {
               <div class="z-10 flex flex-col items-center p-6 -mt-8 bg-white rounded-lg w-60 drop-shadow-2xl ">
                 <a href="${res.url}" class="rounded-sm bg-slate-400">
                 <p class="text-sm font-semibold text-blue">${res.title}</p>
-                <p>${res.abstract.slice(0,80)}</p>
+                <p>${res.abstract.slice(0,80)}...</p>
                 </a>
             </div>
           </div>
